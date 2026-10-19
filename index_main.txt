@@ -1,0 +1,82 @@
+
+
+
+
+
+
+m@m-HP-Z440-Workstation:~/Desktop/chess$    python -m http.server 8000
+Command 'python' not found, did you mean:
+  command 'python3' from deb python3
+  command 'python' from deb python-is-python3
+m@m-HP-Z440-Workstation:~/Desktop/chess$ python3 -m http.server 8000
+Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
+127.0.0.1 - - [18/Oct/2026 04:24:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Oct/2026 04:24:40] "GET /main.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Oct/2026 04:24:40] code 404, message File not found
+127.0.0.1 - - [18/Oct/2026 04:24:40] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [18/Oct/2026 04:24:58] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [18/Oct/2026 04:24:58] "GET /main.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Oct/2026 04:26:16] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [18/Oct/2026 04:26:16] "GET /main.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Oct/2026 04:26:16] code 404, message File not found
+127.0.0.1 - - [18/Oct/2026 04:26:16] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [18/Oct/2026 04:26:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Oct/2026 04:26:47] "GET /main.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Oct/2026 04:26:47] code 404, message File not found
+127.0.0.1 - - [18/Oct/2026 04:26:47] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [18/Oct/2026 04:27:06] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [18/Oct/2026 04:27:06] "GET /main.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Oct/2026 04:27:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Oct/2026 04:27:27] "GET /main.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Oct/2026 04:27:27] code 404, message File not found
+127.0.0.1 - - [18/Oct/2026 04:27:27] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [18/Oct/2026 04:27:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Oct/2026 04:27:31] "GET /main.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Oct/2026 04:27:31] code 404, message File not found
+127.0.0.1 - - [18/Oct/2026 04:27:31] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [18/Oct/2026 04:27:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Oct/2026 04:27:36] "GET /main.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Oct/2026 04:27:36] code 404, message File not found
+127.0.0.1 - - [18/Oct/2026 04:27:36] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [18/Oct/2026 04:27:53] code 404, message File not found
+127.0.0.1 - - [18/Oct/2026 04:27:53] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [18/Oct/2026 04:27:53] code 404, message File not found
+127.0.0.1 - - [18/Oct/2026 04:27:53] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [18/Oct/2026 04:28:18] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [18/Oct/2026 04:28:18] "GET /main.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Oct/2026 04:28:18] code 404, message File not found
+127.0.0.1 - - [18/Oct/2026 04:28:18] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+^C
+Keyboard interrupt received, exiting.
+m@m-HP-Z440-Workstation:~/Desktop/chess$ ^C
+m@m-HP-Z440-Workstation:~/Desktop/chess$ python3 -m http.server 8000
+Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
+127.0.0.1 - - [18/Oct/2026 04:30:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Oct/2026 04:30:39] "GET /main.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Oct/2026 04:30:40] code 404, message File not found
+127.0.0.1 - - [18/Oct/2026 04:30:40] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [18/Oct/2026 04:34:29] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [18/Oct/2026 04:34:29] "GET /main.js HTTP/1.1" 200 -
+^C
+Keyboard interrupt received, exiting.
+m@m-HP-Z440-Workstation:~/Desktop/chess$ ^C
+m@m-HP-Z440-Workstation:~/Desktop/chess$ ^C
+m@m-HP-Z440-Workstation:~/Desktop/chess$ python3 -m http.server 8000
+Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
+127.0.0.1 - - [18/Oct/2026 04:35:30] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [18/Oct/2026 04:35:30] "GET /main.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Oct/2026 04:35:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Oct/2026 04:35:38] "GET /main.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Oct/2026 04:35:38] code 404, message File not found
+127.0.0.1 - - [18/Oct/2026 04:35:38] "GET /favicon.ico HTTP/1.1" 404 -
+^C
+Keyboard interrupt received, exiting.
+m@m-HP-Z440-Workstation:~/Desktop/chess$ ^C
+m@m-HP-Z440-Workstation:~/Desktop/chess$ python3 -m http.server 8000
+Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
+127.0.0.1 - - [18/Oct/2026 04:39:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Oct/2026 04:39:29] "GET /main.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Oct/2026 04:39:29] code 404, message File not found
+127.0.0.1 - - [18/Oct/2026 04:39:29] "GET /favicon.ico HTTP/1.1" 404 -
+
+

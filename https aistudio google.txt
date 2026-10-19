@@ -1,0 +1,47 @@
+
+
+
+
+
+
+
+https://huggingface.co/spaces/tfrere/reachy-mini-vibe-coding-apps
+
+https://aistudio.google.com/apps/b1da5c3f-61a5-4137-9e0b-d961a0735761?showAssistant=true&showPreview=true
+
+
+
+
+
+
+
+
+
+m@m-HP-Z440-Workstation:~/Desktop/chess/1$ npm install --legacy-peer-deps
+npm WARN deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+
+added 189 packages, and audited 190 packages in 17s
+
+40 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+m@m-HP-Z440-Workstation:~/Desktop/chess/1$ npm run dev
+
+> react-example@0.0.0 dev
+> vite --port=3000 --host=0.0.0.0
+
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - `__dirname` (vite.config.ts:11:27). Use `import.meta.dirname` instead
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+  VITE v8.3.4  ready in 617 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://192.168.1.12:3000/  eno1
+  ➜  press h + enter to show help
+
+
+
+
+
